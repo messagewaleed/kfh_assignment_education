@@ -1,0 +1,8 @@
+spring:
+    jpa:
+        hibernate:
+          ddl-auto: update
+    datasource:
+        url: jdbc:mysql://ourInstanceOnTheCloud:1433/kfh_assign
+        username: ${SPRING_DATASOURCE_USERNAME}
+        password: ${SPRING_DATASOURCE_PASSWORD}

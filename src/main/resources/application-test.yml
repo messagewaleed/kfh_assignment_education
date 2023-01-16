@@ -1,0 +1,13 @@
+spring:
+    jpa:
+        hibernate:
+          ddl-auto: update
+    datasource:
+        url: jdbc:mysql://localhost:3306/kfh_assign
+        username: root
+        password:
+    mvc:
+        pathmatch:
+          matching-strategy: ant-path-matcher
+server:
+  port: 8087
