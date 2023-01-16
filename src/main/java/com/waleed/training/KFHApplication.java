@@ -48,19 +48,19 @@ public class KFHApplication {
                         Collections.emptyList()));
     }
 
-    @Bean
-    CommandLineRunner lookup(CourseClient courseClient) {
-        return args -> {
+//    @Bean
+//    CommandLineRunner lookup(CourseClient courseClient) {
+//        return args -> {
 //			String course = "java";
 //
 //			if (args.length > 0) {
 //				course = args[0];
 //			}
-            GetCourseResponse response = courseClient.getCourses();
-//			System.err.println(response.getCourses().for);
-            response.getCourses().forEach(System.out::println);
-        };
-    }
+//            GetCourseResponse response = courseClient.getCourses();
+////			System.err.println(response.getCourses().for);
+//            response.getCourses().forEach(System.out::println);
+//        };
+//    }
 
 
 }

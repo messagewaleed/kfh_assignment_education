@@ -9,5 +9,8 @@ spring:
     mvc:
         pathmatch:
           matching-strategy: ant-path-matcher
+    devtools:
+      restart:
+        enabled: false
 server:
   port: 8087
